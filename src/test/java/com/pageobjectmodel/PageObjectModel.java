@@ -51,7 +51,7 @@ public class PageObjectModel {
       public WebElement SelectCountry ;
       
       
-      
+    
       
       
       
@@ -77,6 +77,22 @@ public class PageObjectModel {
 	@FindBy(xpath="//*[contains(text(),'Your Account Has Been Created!')]")
 	public WebElement Proof;
 
+	
+	
+	@FindBy(xpath="//*[@class='ui-datepicker-month']")
+	public WebElement Month_DD;
+	
+	
+	@FindBy(xpath="//*[@class='ui-datepicker-year']")
+	public WebElement Year_DD;
+	
+	@FindBy(xpath="//*[@class='ui-state-default']")
+	public WebElement ListOfDate;
+	
+ //	date xpath //*[@class='ui-state-default']
+	
+	
+	
 
      public WebDriver getMonth() {
     	 
