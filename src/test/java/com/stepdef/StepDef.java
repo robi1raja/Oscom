@@ -1,5 +1,8 @@
 package com.stepdef;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
@@ -53,9 +56,26 @@ public void user_will_put_Month_and_Year_and_Date(String Month, String Year, Str
     Select Year_1 = new Select(Year1);
     Year_1.selectByVisibleText(Year);
     
-    
+   
+    List<WebElement>LwE=driver.findElements(By.xpath("//a[@class='ui-state-default']"));
 	
 	
+
+	int totalcount = LwE.size();
+	
+
+	for (int i=0; i<totalcount;i++) {
+		WebElement element=LwE.get(i);
+		String text=element.getText();
+		System.out.println(text);
+		if(text.equalsIgnoreCase(Date)) {
+			element.click();
+			break;
+		}
+	
+	
+	
+	}	
     Thread.sleep(2000); 
 }
 
