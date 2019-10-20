@@ -67,7 +67,7 @@ public void user_will_put_Month_and_Year_and_Date(String Month, String Year, Str
 	for (int i=0; i<totalcount;i++) {
 		WebElement element=LwE.get(i);
 		String text=element.getText();
-		System.out.println(text);
+		//System.out.println(text);
 		if(text.equalsIgnoreCase(Date)) {
 			element.click();
 			break;

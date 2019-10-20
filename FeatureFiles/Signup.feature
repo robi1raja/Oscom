@@ -17,5 +17,5 @@
 
     Examples: 
       | FirstName  | LastName |  EMail            | Street           | PostCode | City     |State| Telephone |  Password | CPassword |CountryName| Month|Year|Date|
-      | test2  | test@2   |  s12457@gmail.com| 142 w 7th street | 11204 | Brooklyn |NY   | 123456784 |  test234  | test234   | Bangladesh  | Jun | 1989   | 12  |
-      | test3  | test@3   |  s1247547@gmail.com| 142 w 7th street | 11204 | Brooklyn |NY   | 123456784 |  test234  | test234   | Bangladesh  | Jan | 1992   | 7  |
+      | test2  | test@2   |  s1241057@gmail.com| 142 w 7th street | 11204 | Brooklyn |NY   | 123456784 |  test234  | test234   | Bangladesh  | Jun | 1989   | 12  |
+     
